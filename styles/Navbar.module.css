@@ -1,0 +1,56 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 240, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--color-black);
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+.link {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-text-main);
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: var(--color-gold);
+}
+
+.bookBtn {
+    background: var(--color-black);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .links {
+        display: none;
+    }
+}
