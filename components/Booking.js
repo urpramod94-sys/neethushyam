@@ -23,7 +23,7 @@ export default function Booking() {
 
                         <div className={styles.formGroup}>
                             <label className={styles.label}>Email Address</label>
-                            <input type="email" className={styles.input} placeholder="neethushyam@gmail.com" required />
+                            <input type="email" className={styles.input} placeholder="shyamneethu619@gmail.com" required />
                         </div>
 
                         <div className={styles.formGroup}>

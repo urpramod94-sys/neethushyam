@@ -16,7 +16,7 @@ export default function Footer() {
 
                     <div className={styles.column}>
                         <h3>Contact Info</h3>
-                        <a href="mailto:neethushyam@gmail.com" className={styles.link}>neethushyam@gmail.com</a>
+                        <a href="mailto:shyamneethu619@gmail.com" className={styles.link}>shyamneethu619@gmail.com</a>
                         <a href="tel:+918075868691" className={styles.link}>+91 807 586 8691</a>
                         <div className={styles.link}>Kochi, Kerala, India</div>
                     </div>
