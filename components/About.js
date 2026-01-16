@@ -2,6 +2,10 @@ import Image from 'next/image';
 import styles from '../styles/About.module.css';
 
 export default function About() {
+    const startYear = 2012;
+    const currentYear = new Date().getFullYear();
+    const expYears = currentYear - startYear;
+
     return (
         <section id="about" className={`section ${styles.about}`}>
             <div className={`container ${styles.content}`}>
@@ -26,7 +30,7 @@ export default function About() {
 
                     <div className={styles.stats}>
                         <div className={styles.statItem}>
-                            <h3>5+</h3>
+                            <h3>{expYears}+</h3>
                             <p>Years Exp.</p>
                         </div>
                         <div className={styles.statItem}>
